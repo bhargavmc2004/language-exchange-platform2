@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 300px;
+            width: 100%;
+        }
+        .login-container h1 {
+            margin-bottom: 20px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #45a049;
+        }
+        .login-container .separator {
+            margin: 20px 0;
+            border-bottom: 1px solid #ccc;
+            position: relative;
+        }
+        .login-container .separator span {
+            position: absolute;
+            background-color: white;
+            padding: 0 10px;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <input type="email" placeholder="Enter your Gmail" />
+        <a href="ui.html" ><button>Login with Gmail</button></a>
+        <div class="separator"><span>or</span></div>
+        <a href="ui.html"><button>Login with Google</button></a>
+        <div class="separator"><span>or</span></div>
+        <input type="text" placeholder="Enter your mobile number" />
+        <a href="ui.html" >  <button>Login with Mobile Number</button></a>  
+        <p>Doesnt have have a account <a href="sign_in.html"> <button>SingIn</button>  </a>  </p>
+    </div> 
+    
+</body>
+</html>
